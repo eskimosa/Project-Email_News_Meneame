@@ -1,14 +1,28 @@
-The project aims to deliver a daily email containing up to 10 fresh political news articles sourced from meneame.net. The email must be sent out every day at 5am, feature clickable article headers and exclude articles from previous days.
+Intro
 
-Client Requirements:
+In an era where information is always available, staying informed about the latest political developments has become crucial. But what if you could wake up each morning to a curated email containing the freshest political news?
 
-Daily Email: Send a daily email at 5am containing a maximum of 10 fresh political news articles.
+This project is your ticket to an exciting journey that brings you the freshest news right to your inbox every day at 5am. Buckle up as you navigate through client requirements!
 
-No Repetition: Ensure that articles from previous days are not included in the daily email.
+Client Requirements
 
-Clickable Headers: Create clickable headers in the email, allowing users to click on a news title and be redirected to the original article source.
+Imagine waking up to a curated selection of the freshest top 10 political news articles from meneame.net every single day. 
 
-Technologies used:
-1. Python Libraries: os, dotenv, smtplib, requests, BeautifulSoup, MIMEText/MIMEMultipart
-2. cron
-3. AWS EC2 Instance
+To keep things spicy, yesterday's news can't creep into today's spotlight! 
+
+To make it even more awesome, emails that you receive aren't just boring text - each news title is a gateway to a wild adventure! Clickable headers invite you to dive headfirst into the original articles, leaving mediocrity behind.
+
+Mastering The Code
+
+Here are the amazing technologies that helped me bring this project to life! The heart of this project beats with the power of Python Libraries, such as:
+os
+dotenv
+smtplib
+requests
+BeautifulSoup
+MIMEText/MIMEMultipart
+
+To top this I explored the capabilities of cron to ensure timely delivery of freshest news right to the inbox. 
+
+And as if that wasn't enough, I mastered scheduling it on the AWS EC2 Instance to make sure news is delivered even when my computer is not too active.
+
